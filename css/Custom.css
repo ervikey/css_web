@@ -1,0 +1,12 @@
+.row-gap{
+  margin:10px;
+}
+
+.left{
+  width:70%;
+  float:left;
+}
+.right{
+  width:60%;
+  float:right;
+}
