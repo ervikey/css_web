@@ -15,7 +15,6 @@
   width: 50px;
 }
 
-
 #contact-buttons-bar.slide-on-scroll {
   position: absolute;
 }
@@ -54,6 +53,9 @@
 }
 .contact-button-link.facebook {
   background: #3b5998;
+}
+.contact-button-link.youtube {
+ background-color: #cd201f;
 }
 .contact-button-link.linkedin {
   background: #0077b5;

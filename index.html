@@ -19,6 +19,11 @@
     <link rel="stylesheet" href="css/Workshop/style.css">
     <link href="css/Workshop/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/Workshop/media-queries.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/contact-buttons.css">
+    <link rel="stylesheet" href="css/demo.css">
 </head>
 <body>
     <!-- Header Area -->
@@ -37,6 +42,7 @@
 
         </div>
     </div>
+
     <!-- /Header Area -->
     <div id="nav">
         <!-- Navigation -->
@@ -87,12 +93,17 @@
             </table>
         </div>
     </div>
+    
     <div class="sideBar boxLeft">
         <div>
             <h1 class="StickyNotesHeading">Upcoming Events</h1>
             <p class="StickyNotesContent">
-                <!--<b>Information:</b>-->
-                This is some information that you can see even when you scroll.
+                <b>Hyderabad Schedule</b>
+                <ol>
+                    <li type="a">Evening - 01 May 17</li>
+                    <li type="a">Week Days- 22 May 17</li>
+                    <li type="a">Week End- 10 June 17</li>
+                </ol>
             </p>
         </div>
     </div>
@@ -234,171 +245,190 @@
         </div>
     </div>
     <!-- /Portfolio -->
-    <!-- Contact -->
-    <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Contact Us</h2>
-                    <hr>
-                    <span style="font-size:15px;font-weight:bolder;">Call: 040-4270 1222</span> <br />
-                    <span style="font-size:15px;font-weight:bolder;">Email Address: info@cybershieldservices.com</span>
-                    <br />
-                    <a class="fa fa-facebook fa-3x" href="https://www.facebook.com/Cybershieldservices" target="_blank" style="padding-top:10px;padding-bottom:10px"></a>
-                    &nbsp;&nbsp;&nbsp;
-                    <span style="font-weight:bolder"><a class="fa fa-youtube fa-3x" href="https://www.youtube.com/hackingcamp" target="_blank" style="padding-top:10px;padding-bottom:10px"></a></span>
-                </div>
-                <div class="col-md-5 col-md-offset-0  text-left">
-                    <!-- contact form starts -->
-                    <form action="contact" id="contact-form" class="form-horizontal">
-                        <fieldset>
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label" for="name">Your Name</label>
-                                <div class="col-sm-8">
-                                    <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+    
+        <!-- Contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 text-center">
+                        <h2>Contact Us</h2>
+                        <hr>
+                        <span style="font-size:15px;font-weight:bolder;">Call: 040-4270 1222</span> <br />
+                        <span style="font-size:15px;font-weight:bolder;">Email Address: info@cybershieldservices.com</span>
+                        <br />
+                        <a class="fa fa-facebook fa-3x" href="https://www.facebook.com/Cybershieldservices" target="_blank" style="padding-top:10px;padding-bottom:10px"></a>
+                        &nbsp;&nbsp;&nbsp;
+                        <span style="font-weight:bolder"><a class="fa fa-youtube fa-3x" href="https://www.youtube.com/hackingcamp" target="_blank" style="padding-top:10px;padding-bottom:10px"></a></span>
+                    </div>
+                    <div class="col-md-5 col-md-offset-0  text-left">
+                        <!-- contact form starts -->
+                        <form action="contact" id="contact-form" class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label" for="name">Your Name</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label" for="email">Email Address</label>
-                                <div class="col-sm-8">
-                                    <input type="text" placeholder="Enter Your Email Address" class="form-control" name="email" id="email">
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label" for="email">Email Address</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" placeholder="Enter Your Email Address" class="form-control" name="email" id="email">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label" for="subject">Subject</label>
-                                <div class="col-sm-8">
-                                    <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label" for="subject">Subject</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label" for="message">Your Message</label>
-                                <div class="col-sm-8">
-                                    <textarea placeholder="Please Type Your Message" class="form-control" name="message" id="message" rows="3"></textarea>
+                                <div class="form-group">
+                                    <label class="col-sm-4 control-label" for="message">Your Message</label>
+                                    <div class="col-sm-8">
+                                        <textarea placeholder="Please Type Your Message" class="form-control" name="message" id="message" rows="3"></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-sm-offset-4 col-sm-8">
-                                <button type="submit" class="btn btn-success">Submit</button>
-                                <button type="reset" class="btn btn-primary">Cancel</button>
-                            </div>
+                                <div class="col-sm-offset-4 col-sm-8">
+                                    <button type="submit" class="btn btn-success">Submit</button>
+                                    <button type="reset" class="btn btn-primary">Cancel</button>
+                                </div>
 
-                        </fieldset>
-                    </form>
+                            </fieldset>
+                        </form>
 
 
-                    <!-- contact form ends -->
-                </div>
-                <div class="col-md-5 col-md-offset-0 text-left">
-                    <iframe class=" row-gap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.473126421698!2d78.38738451531601!3d17.484914088020233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb918935fcb985%3A0xc3f9c0702359ecba!2sCyberShield+Security+Solutions+Pvt+Ltd!5e0!3m2!1sen!2sin!4v1493375666540"
-                            width="600" height="300" frameborder="0" style="border:0" allowfullscreen="yes"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /Contact -->
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <h2>Thank You</h2>
-                    <em>Copyright &copy; Company 2013</em>
+                        <!-- contact form ends -->
+                    </div>
+                    <div class="col-md-5 col-md-offset-0 text-left">
+                        <iframe class=" row-gap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.473126421698!2d78.38738451531601!3d17.484914088020233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb918935fcb985%3A0xc3f9c0702359ecba!2sCyberShield+Security+Solutions+Pvt+Ltd!5e0!3m2!1sen!2sin!4v1493375666540"
+                                width="600" height="300" frameborder="0" style="border:0" allowfullscreen="yes"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- /Footer -->
-    <!-- Bootstrap core JavaScript -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-scrolltofixed-min.js"></script>
-    <script src="js/jquery.vegas.js"></script>
-    <script src="js/jquery.mixitup.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/bootstrap.js"></script>
+        <!-- /Contact -->
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 text-center">
+                        <h2>Thank You</h2>
+                        <em>Copyright &copy; Company 2013</em>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /Footer -->
+        <!-- Bootstrap core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-scrolltofixed-min.js"></script>
+        <script src="js/jquery.vegas.js"></script>
+        <script src="js/jquery.mixitup.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.js"></script>
 
-    <!-- Slideshow Background  -->
-    <script>
-        $.vegas('slideshow', {
-            delay: 5000,
-            backgrounds: [
-                         { src: './img/slider/ATC-Web20-Logo.png', fade: 2000 },
-                         { src: './img/slider/background-01.png', fade: 2000 },
-                         { src: './img/slider/background-04.png', fade: 2000 },
-                         { src: './img/slider/CEH-New1-1.jpg', fade: 2000 },
-                         { src: './img/slider/CEH-New15-1.jpg', fade: 2000 },
-                         { src: './img/slider/CEH-New16-1.jpg', fade: 2000 },
-                         { src: './img/slider/CEH-New4-1.jpg', fade: 2000 },
-                         { src: './img/slider/CEH-New5-1.jpg', fade: 2000 },
-                         { src: './img/slider/CEH-New6-1.jpg', fade: 2000 },
-                         { src: './img/slider/CEHv9-background-A.jpg', fade: 2000 },
-                         { src: './img/slider/CHFI-New26-1.jpg', fade: 2000 },
-                         { src: './img/slider/CHFI-New30-1.jpg', fade: 2000 },
-                         { src: './img/slider/CHFI-New38-1.jpg', fade: 2000 },
-                         { src: './img/slider/chfi1.png', fade: 2000 },
-                         { src: './img/slider/chfi2.png', fade: 2000 },
-                         { src: './img/slider/CSCU-New19-1.jpg', fade: 2000 },
-                         { src: './img/slider/ECSA-1-1.jpg', fade: 2000 },
-                         { src: './img/slider/ECSA-2-1.jpg', fade: 2000 },
-                         { src: './img/slider/ECSA-3-1.jpg', fade: 2000 },
-                         { src: './img/slider/ECSA-background02.png', fade: 2000 },
-                         { src: './img/slider/ECSA-background03.png', fade: 2000 },
-                         { src: './img/slider/ECU.jpg', fade: 2000 },
-                         { src: './img/slider/LPT-1-1.jpg', fade: 2000 },
+        <!-- Slideshow Background  -->
+        <script>
+            $.vegas('slideshow', {
+                delay: 5000,
+                backgrounds: [
+                             { src: './img/workshops_11.JPG', fade: 2000 },
+                             { src: './img/slider/background-01.png', fade: 2000 },
+                             { src: './img/workshops_2.JPG', fade: 2000 },
+                             { src: './img/slider/CEH-New5-1.jpg', fade: 2000 },
+                             { src: './img/workshops_4.JPG', fade: 2000 },
+                             { src: './img/slider/CEH-New6-1.jpg', fade: 2000 },
+                             { src: './img/workshops_5.JPG', fade: 2000 },
+                             { src: './img/slider/CEHv9-background-A.jpg', fade: 2000 },
+                             { src: './img/slider/CHFI-New26-1.jpg', fade: 2000 },
+                             { src: './img/slider/CHFI-New30-1.jpg', fade: 2000 },
+                             { src: './img/slider/CHFI-New38-1.jpg', fade: 2000 },
+                             { src: './img/slider/chfi1.png', fade: 2000 },
+                             { src: './img/slider/chfi2.png', fade: 2000 },
+                             { src: './img/slider/CSCU-New19-1.jpg', fade: 2000 },
+                             { src: './img/slider/ECSA-1-1.jpg', fade: 2000 },
+                             { src: './img/slider/ECSA-2-1.jpg', fade: 2000 },
+                             { src: './img/slider/ECSA-background03.png', fade: 2000 },
+                             
 
-            ]
-        })('overlay', {
-            src: './img/overlay.png'
-        });
+                ]
+            })('overlay', {
+                src: './img/overlay.png'
+            });
 
-    </script>
-    <!-- /Slideshow Background -->
-    <!-- Mixitup : Grid -->
-    <script>
-        $(function () {
-            $('#Grid').mixitup();
-        });
-    </script>
-    <!-- /Mixitup : Grid -->
-    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
-    <script>
-        $(function () {
-            $('a[href*=#]:not([href=#])').click(function () {
-                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-                  || location.hostname == this.hostname) {
+        </script>
+        <!-- /Slideshow Background -->
+        <!-- Mixitup : Grid -->
+        <script>
+            $(function () {
+                $('#Grid').mixitup();
+            });
+        </script>
+        <!-- /Mixitup : Grid -->
+        <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
+        <script>
+            $(function () {
+                $('a[href*=#]:not([href=#])').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                      || location.hostname == this.hostname) {
 
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html,body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        return false;
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
                     }
+                });
+            });
+        </script>
+        <!-- Navbar -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#nav').scrollToFixed();
+            });
+
+            var toggled = true;
+
+            $("#toggle_menu").click(function () {
+                if (toggled) {
+                    toggled = false;
+                    $(this).animate({ width: "20px" }, "fast");
+                } else {
+                    toggled = true;
+                    $(this).animate({ width: "200px" }, "fast");
                 }
             });
-        });
-    </script>
-    <!-- Navbar -->
+        </script>
+
+        <!-- /Navbar-->
+
+        
+
+        <script src="js/SideBar.js"></script>
+        <script src="js/script.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.contact-buttons.js"></script>
+    <script src="js/demo.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('#nav').scrollToFixed();
-        });
 
-        var toggled = true;
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
 
-        $("#toggle_menu").click(function () {
-            if (toggled) {
-                toggled = false;
-                $(this).animate({ width: "20px" }, "fast");
-            } else {
-                toggled = true;
-                $(this).animate({ width: "200px" }, "fast");
-            }
-        });
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
     </script>
-
-    <!-- /Navbar-->
 
     <script src="js/Workshop/bootstrap.min.js"></script>
     <script src="js/Workshop/jquery.backstretch.min.js"></script>
@@ -407,10 +437,6 @@
     <script src="js/Workshop/jquery.magnific-popup.min.js"></script>
     <script src="js/Workshop/masonry.pkgd.min.js"></script>
     <script src="js/Workshop/scripts.js"></script>
-
-    <script src="js/SideBar.js"></script>
-    <script src="js/script.js"></script>
-
 </body>
 
 </html>
