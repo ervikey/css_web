@@ -58,6 +58,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CEH.html" />
+    <Content Include="css\contact-buttons.css" />
+    <Content Include="email.html" />
     <Content Include="img\LPT-banner-full-length-011.jpg" />
     <Content Include="LPT.html" />
     <Content Include="ECSA.html" />
