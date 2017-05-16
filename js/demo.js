@@ -28,6 +28,7 @@ $.contactButtons({
   buttons : {
       'facebook': { class: 'facebook', use: true, link: 'https://www.facebook.com/Cybershieldservices', extras: 'target="_blank"' },
       'youtube': { class: 'youtube', use: true, link: 'https://www.youtube.com/hackingcamp', extras: 'target="_blank"' },
+      'urbanpro': { class: 'urbanpro', use: true, link: 'https://www.urbanpro.com/hyderabad/vikas-jain/5842190', extras: 'target="_blank"' },
     //'linkedin':   { class: 'linkedin', use: true, link: 'https://www.linkedin.com/company/mycompany' },
     //'google':     { class: 'gplus',    use: true, link: 'https://plus.google.com/myidongoogle' },
     //'mybutton':   { class: 'git',      use: true, link: 'http://github.com', icon: 'github', title: 'My title for the button' },
