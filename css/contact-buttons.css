@@ -55,7 +55,18 @@
   background: #3b5998;
 }
 .contact-button-link.youtube {
- background-color: #cd201f;
+ background-color: white;
+ background-image: url("/img/youtube.png");
+ background-repeat: no-repeat;
+ background-size: 50px 50px;
+ width: 50px;
+}
+.contact-button-link.urbanpro {
+ background-color:#48e0d2;
+ background-image: url("/img/up.jpg");
+ background-repeat: no-repeat;
+ background-size: 50px 50px;
+ width: 50px;
 }
 .contact-button-link.linkedin {
   background: #0077b5;
