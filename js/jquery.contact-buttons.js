@@ -25,8 +25,8 @@
         'pinterest':  { class: 'pinterest', use: false, icon: 'pinterest',   link: '', title: 'Follow on Pinterest' },
         'phone':      { class: 'phone',     use: false, icon: 'phone',       link: '', title: 'Call us', type: 'phone' },
         'email': { class: 'email', use: false, icon: 'envelope', link: '', title: 'Send us an email', type: 'email' },
-        'youtube': { class: 'youtube', use: false, icon: '', link: '', title: 'Follow on YouTube' },
-        'urbanpro': { class: 'urbanpro', use: false, icon: '', link: '', title: 'Meet your Instructor on UrbanPro' },
+        'youtube': { class: 'youtube', use: false, icon: 'Youtube', link: '', title: 'Follow on YouTube' }
+
       }
     };
 
