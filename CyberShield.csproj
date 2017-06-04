@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CyberForensics.html" />
+    <Content Include="img\CSCU-Banner-02.jpg" />
     <Content Include="img\cyberforensicscontent.jpg" />
     <Content Include="img\vaptcontent.jpg" />
     <Content Include="VAPT.html" />
@@ -73,7 +74,7 @@
     <Content Include="img\email-icon-106.png" />
     <Content Include="img\email-icon-99.png" />
     <Content Include="img\facebook-icon.png" />
-    <Content Include="img\Logo-youtube.png" />
+    <Content Include="img\logo-youtube.png" />
     <Content Include="img\LPT-banner-full-length-011.jpg" />
     <Content Include="img\Slider\ATC-Web20-Logo.png" />
     <Content Include="img\Slider\ecsa-banner.png" />
