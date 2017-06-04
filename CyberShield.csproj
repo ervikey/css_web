@@ -57,14 +57,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CyberForensics.html" />
+    <Content Include="img\cyberforensicscontent.jpg" />
+    <Content Include="img\vaptcontent.jpg" />
+    <Content Include="VAPT.html" />
+    <Content Include="cscu.html" />
     <Content Include="CEH.html" />
     <Content Include="contact-form-thank-you.html" />
     <Content Include="css\contact-buttons.css" />
     <Content Include="email.html" />
+    <Content Include="img\CEH-Banner.png" />
+    <Content Include="img\chfiportfolio.png" />
+    <Content Include="img\CSCU-portfolio.jpg" />
+    <Content Include="img\ECSA-Banner.png" />
+    <Content Include="img\email-icon-106.png" />
+    <Content Include="img\email-icon-99.png" />
+    <Content Include="img\facebook-icon.png" />
+    <Content Include="img\Logo-youtube.png" />
     <Content Include="img\LPT-banner-full-length-011.jpg" />
     <Content Include="img\Slider\ATC-Web20-Logo.png" />
+    <Content Include="img\Slider\ecsa-banner.png" />
     <Content Include="img\up.jpg" />
     <Content Include="img\youtube.png" />
+    <Content Include="index - Copy.html" />
     <Content Include="js\demo.js" />
     <Content Include="js\gen_validatorv31.js" />
     <Content Include="js\jquery.contact-buttons.js" />
@@ -135,6 +150,8 @@
     <Content Include="js\Workshop\WorkshopScript.js" />
     <Content Include="js\Workshop\wow.min.js" />
     <Content Include="readme.txt" />
+    <Content Include="Slider - Copy.html" />
+    <Content Include="Slider.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

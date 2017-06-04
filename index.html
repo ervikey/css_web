@@ -29,17 +29,7 @@
     <!-- Header Area -->
     <div id="top" class="header">
         <div class="vert-text">
-            <!--<img class="img-rounded" alt="Company Logo" style="width:15%" src="./img/logo.gif" />-->
-            <!--<h2><em>Cyber Shield Services</em></h2>-->
-            <!--<ul class="list-inline">
-                <li><a class="fa fa-facebook fa-3x" href="https://www.facebook.com/Cybershieldservices" target="_blank"></a></li>
-                <li><a class="fa fa-youtube fa-3x" href="https://www.youtube.com/hackingcamp" target="_blank"></a></li>
-                <li><i class="fa fa-twitter fa-3x"></i></li>
-                <li><i class="fa fa-google-plus fa-3x"></i></li>
-                <li><i class="fa fa-linkedin fa-3x"></i></li>
-            </ul>-->
             <br>
-
         </div>
     </div>
 
@@ -59,13 +49,22 @@
                         <a href="#" class="navbar-brand">Cyber Shield Services</a>
                     </div>
                     <div class="collapse navbar-collapse" id="mobilemenu">
-
                         <ul class="nav navbar-nav navbar-right text-center" style="font-weight:bolder">
                             <li><a href="#top"><i class="service-icon fa fa-home"></i>&nbsp;Home</a></li>
                             <li><a href="#about"><i class="service-icon fa fa-info"></i>&nbsp;About</a></li>
-                            <li><a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Certification</a>
+                            <li>
+                                <a href="#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Certification</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn">Career Path</a>
+                                <div class="dropdown-content">
+                                    <a href="VAPT.html">VAPT</a>
+                                    <a href="CyberForensics.html">Cyber Forensics</a>
+                                </div>
+                            </li>
                             <li><a href="#portfolio"><i class="service-icon fa fa-camera"></i>&nbsp;Workshop</a></li>
                             <li><a href="#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Contact</a></li>
+
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>
@@ -87,14 +86,14 @@
                         <h2>Learn Directly from <span style="color:red"> Ethical Hackers</span></h2>
                     </td>
                     <td width="30%" style="padding-right:110px">
-                        <img src="img/logo.png" style="width:60%;float:right;text-align:left;" />
+                        <img src="img/logo.gif" style="width:60%;float:right;text-align:left;" />
                     </td>
                 </tr>
             </table>
         </div>
     </div>
     
-    <div class="sideBar boxLeft">
+    <!--<div class="sideBar boxLeft">
         <h1 class="StickyNotesHeading">Upcoming Events</h1>
         <div class="block">
             <div>
@@ -114,51 +113,61 @@
         </div>
         <div>
         </div>
-    </div>
+    </div>-->
     <!-- /About -->
     <!-- Services -->
+
     <div id="services" class="services">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Training</h2>
+                <div class="text-center">
+                    <h2><span style="color:white;">Training & Certifications</span></h2>
                     <hr>
                 </div>
             </div>
-            <div class="row" style="width:100%;">
-                <div class="col-md-3 text-center">
-                    <div>
-                        <a href="CEH.html"><img src="img/CEH.jpg" style="width:100%" /></a>
-                        <!--<h3>CEH</h3>-->
-                        <!--<p>Ad has dicat ridens consetetur, eos eu option persius. Mollis cotidieque conclusionemque per id, ne nam alienum liberavisse. </p>-->
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div>
-                        <a href="CHFI.html"><img src="img/CHFI.jpg" style="width:100%" /></a>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div>
-                        <a href="ECSA.html"><img src="img/ECSA.jpg" style="width:100%;height:70%" /></a>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div>
-                        <a href="LPT.html"><img src="img/LPT.jpg" style="width:100%;height:70%;" /></a>
-                    </div>
-                </div>
-            </div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="portfolio-item-wrap">
+                            <a href="CEH.html" style="cursor:pointer" target="_blank">
+                                <img width="275" height="275" alt="Certified Ethical Hacker Silhouette" src="img/CEH-Banner.png" /> &nbsp;
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="portfolio-item-wrap">
+                            <a href="CHFI.html" style="cursor:pointer" target="_blank">
+                                <img width="275" height="275" alt="Computer Hacking Forensics Investigator" src="img/chfiportfolio.png" /> &nbsp;
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="portfolio-item-wrap">
+                            <a href="ECSA.html" style="cursor:pointer" target="_blank">
+                                <img width="275" height="275" alt="EC-Council Certifed Security Analyst" src="img/ECSA-Banner.png" /> &nbsp;
+                            </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="portfolio-item-wrap">
+                            <a href="cscu.html" style="cursor:pointer" target="_blank">
+                                <img width="275" height="275" alt="Certified Secure Computer User" src="img/CSCU-portfolio.jpg" /> &nbsp;
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
+
+    
     <!-- /Services -->
     <!-- Portfolio -->
     <div id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-md-offset-4 text-center">
-                    <h2>Workshop</h2>
-                    <hr>
+                    <h2 style="text-decoration:underline">Workshop</h2>
                 </div>
             </div>
             <div class="portfolio-container section-container">
@@ -253,7 +262,7 @@
         </div>
     </div>
     <!-- /Portfolio -->
-    
+
         <!-- Contact -->
         <div id="contact">
             <div class="container">
@@ -343,24 +352,24 @@
             $.vegas('slideshow', {
                 delay: 5000,
                 backgrounds: [
-                             { src: './img/workshops_11.JPG', fade: 2000 },
+                             { src: './img/workshops_11.jpg', fade: 2000 },
                              { src: './img/slider/background-01.png', fade: 2000 },
-                             { src: './img/workshops_2.JPG', fade: 2000 },
-                             { src: './img/slider/CEH-New5-1.jpg', fade: 2000 },
-                             { src: './img/workshops_4.JPG', fade: 2000 },
-                             { src: './img/slider/CEH-New6-1.jpg', fade: 2000 },
-                             { src: './img/workshops_5.JPG', fade: 2000 },
-                             { src: './img/slider/CEHv9-background-A.jpg', fade: 2000 },
-                             { src: './img/slider/CHFI-New26-1.jpg', fade: 2000 },
-                             { src: './img/slider/CHFI-New30-1.jpg', fade: 2000 },
-                             { src: './img/slider/CHFI-New38-1.jpg', fade: 2000 },
+                             { src: './img/workshops_2.jpg', fade: 2000 },
+                             { src: './img/slider/ceh-new5-1.jpg', fade: 2000 },
+                             { src: './img/workshops_4.jpg', fade: 2000 },
+                             { src: './img/slider/ceh-new6-1.jpg', fade: 2000 },
+                             { src: './img/workshops_5.jpg', fade: 2000 },
+                             { src: './img/slider/cehv9-background-a.jpg', fade: 2000 },
+                             { src: './img/slider/chfi-new26-1.jpg', fade: 2000 },
+                             { src: './img/slider/chfi-new30-1.jpg', fade: 2000 },
+                             { src: './img/slider/chfi-new38-1.jpg', fade: 2000 },
                              { src: './img/slider/chfi1.png', fade: 2000 },
                              { src: './img/slider/chfi2.png', fade: 2000 },
-                             { src: './img/slider/CSCU-New19-1.jpg', fade: 2000 },
-                             { src: './img/slider/ECSA-1-1.jpg', fade: 2000 },
-                             { src: './img/slider/ECSA-2-1.jpg', fade: 2000 },
-                             { src: './img/slider/ECSA-background03.png', fade: 2000 },
-                             
+                             { src: './img/slider/cscu-new19-1.jpg', fade: 2000 },
+                             { src: './img/slider/ecsa-1-1.jpg', fade: 2000 },
+                             { src: './img/slider/ecsa-2-1.jpg', fade: 2000 },
+                             { src: './img/slider/ecsa-background03.png', fade: 2000 },
+
 
                 ]
             })('overlay', {
@@ -416,10 +425,10 @@
 
         <!-- /Navbar-->
 
-        
 
-        <script src="js/SideBar.js"></script>
-        <script src="js/script.js"></script>
+
+     <script src="js/SideBar.js"></script>
+     <script src="js/script.js"></script>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/jquery.contact-buttons.js"></script>

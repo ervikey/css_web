@@ -12,29 +12,13 @@
     <link href="css/slidefolio.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/contact-buttons.css">
+    <link rel="stylesheet" href="css/demo.css">
 
 
 </head>
 <body>
-    <!-- Header Area -->
-    <div id="top" class="header">
-        <div class="vert-text" style="height:50%!important">
-            <!--<img class="img-rounded" alt="Company Logo" style="width:15%" src="./img/logo.gif" />-->
-            <!--<h2><em>Cyber Shield Services</em></h2>-->
-            <!--<ul class="list-inline">
-                <li><a class="fa fa-facebook fa-3x" href="https://www.facebook.com/Cybershieldservices" target="_blank"></a></li>
-                <li><a class="fa fa-youtube fa-3x" href="https://www.youtube.com/hackingcamp" target="_blank"></a></li>
-                <li><i class="fa fa-twitter fa-3x"></i></li>
-                <li><i class="fa fa-google-plus fa-3x"></i></li>
-                <li><i class="fa fa-linkedin fa-3x"></i></li>
 
-            </ul>-->
-            <br>
-
-        </div>
-    </div>
-    <!-- /Header Area -->
     <div id="nav">
         <!-- Navigation -->
         <nav class="navbar navbar-new" role="navigation">
@@ -54,25 +38,34 @@
                     <ul class="nav navbar-nav navbar-right text-center" style="font-weight:bolder">
                         <li><a href="index.html"><i class="service-icon fa fa-home"></i>&nbsp;Home</a></li>
                         <li><a href="index.html#about"><i class="service-icon fa fa-info"></i>&nbsp;About</a></li>
-                        <li><a href="index.html#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Services</a></li>
-                        <li><a href="#portfolio"><i class="service-icon fa fa-camera"></i>&nbsp;Workshop</a></li>
-                        <li><a href="index.html##contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Contact</a></li>
+                        <li><a href="index.html#services"><i class="service-icon fa fa-laptop"></i>&nbsp;Certification</a>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Career Path</a>
+                            <div class="dropdown-content">
+                                <a href="VAPT.html">VAPT</a>
+                                <a href="CyberForensics.html">Cyber Forensics</a>
+                            </div>
+                        </li>
+                        <li><a href="index.html#portfolio"><i class="service-icon fa fa-camera"></i>&nbsp;Workshop</a></li>
+                        <li><a href="index.html#contact"><i class="service-icon fa fa-envelope"></i>&nbsp;Contact</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
         </nav>
         <!-- /Navigation -->
     </div>
+    
+    <br />
     <div id="services">
         <div class="container">
             <div class="row">
-                <div style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; width: 100%; -webkit-border-radius: 22px; -moz-border-radius: 22px; border-radius: 22px; border: 1px solid #0A0A00; background-color: #FFFFFF; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
+                <div style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; width: 100%; background-color: #FFFFFF; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;">
                     <table style="align-items: flex-end; width: 98%; border: none!important">
                         <tr style="align-items: flex-end; border: none!important; width: 98%;">
                             <td style="align-items: center; width: 100%; text-align: justify">
                                 <fieldset>
                                     <legend style="font-size: 25px; font-weight: bolder; text-align: justify;">ECSA - EC-Council Certifed Security Analyst</legend>
-                                    <img src="img/ECSA.jpg" />
+                                    <img src="img/slider/ecsa-banner.png" style="width:100%" />
                                     <br />
                                     <br />
                                     <span style="font-weight: bolder;">WHAT IS ECSA v9?</span>
@@ -180,7 +173,7 @@
 
                                 </table>
                             </td>
-                            
+
                         </tr>
                     </table>
 
@@ -212,27 +205,10 @@
     <script src="js/jquery.vegas.js"></script>
     <script src="js/jquery.mixitup.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
-    <script src="js/script.js"></script>
+    <!--<script src="js/script.js"></script>-->
     <script src="js/bootstrap.js"></script>
 
     <!-- Slideshow Background  -->
-    <script>
-        $.vegas('slideshow', {
-            delay: 5000,
-            backgrounds: [
-                         { src: './img/slider/ATC-Web20-Logo.png', fade: 2000 },
-                         { src: './img/slider/ECSA-1-1.jpg', fade: 2000 },
-                         { src: './img/slider/ECSA-2-1.jpg', fade: 2000 },
-                         { src: './img/slider/ECSA-3-1.jpg', fade: 2000 },
-                         { src: './img/slider/ECSA-background02.png', fade: 2000 },
-                         { src: './img/slider/ECSA-background03.png', fade: 2000 },
-                         { src: './img/workshops_5.jpg', fade: 2000 },
-            ]
-        })('overlay', {
-            src: './img/overlay.png'
-        });
-
-    </script>
     <!-- /Slideshow Background -->
     <!-- Mixitup : Grid -->
     <script>
@@ -265,10 +241,53 @@
         $(document).ready(function () {
             $('#nav').scrollToFixed();
         });
+
+        var toggled = true;
+
+        $("#toggle_menu").click(function () {
+            if (toggled) {
+                toggled = false;
+                $(this).animate({ width: "20px" }, "fast");
+            } else {
+                toggled = true;
+                $(this).animate({ width: "200px" }, "fast");
+            }
+        });
     </script>
+
     <!-- /Navbar-->
 
+
+
+    <script src="js/SideBar.js"></script>
     <script src="js/script.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery.contact-buttons.js"></script>
+    <script src="js/demo.js"></script>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+
+    <script src="js/Workshop/bootstrap.min.js"></script>
+    <script src="js/Workshop/jquery.backstretch.min.js"></script>
+    <script src="js/Workshop/wow.min.js"></script>
+    <script src="js/Workshop/retina-1.1.0.min.js"></script>
+    <script src="js/Workshop/jquery.magnific-popup.min.js"></script>
+    <script src="js/Workshop/masonry.pkgd.min.js"></script>
+    <script src="js/Workshop/WorkshopScript.js"></script>
+
 </body>
 
 </html>

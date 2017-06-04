@@ -53,10 +53,14 @@
 }
 .contact-button-link.facebook {
   background: #3b5998;
+  background-image: url("/img/facebook-icon.png");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
 }
 .contact-button-link.youtube {
  background-color: white;
- background-image: url("/img/youtube.png");
+ background-image: url("/img/logo-youtube.png");
  background-repeat: no-repeat;
  background-size: 50px 50px;
  width: 50px;
@@ -93,5 +97,12 @@
   color: #000;
   background: #ccc;
   padding: 0;
+  width: 50px;
+}
+.contact-button-link.email {
+  background: #3b5998;
+  background-image: url("/img/email-icon-99.png");
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
   width: 50px;
 }

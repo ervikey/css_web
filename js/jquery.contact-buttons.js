@@ -18,13 +18,13 @@
     var defaults = { 
       effect  : '', // slide-on-scroll
       buttons : {
-        'facebook':   { class: 'facebook',  use: false, icon: 'facebook',    link: '', title: 'Follow on Facebook' },
+        'facebook':   { class: 'facebook',  use: false, icon: '',    link: '', title: 'Follow on Facebook' },
         'google':     { class: 'gplus',     use: false, icon: 'google-plus', link: '', title: 'Visit on Google Plus' },
         'linkedin':   { class: 'linkedin',  use: false, icon: 'linkedin',    link: '', title: 'Visit on LinkedIn' },
         'twitter':    { class: 'twitter',   use: false, icon: 'twitter',     link: '', title: 'Follow on Twitter' },
         'pinterest':  { class: 'pinterest', use: false, icon: 'pinterest',   link: '', title: 'Follow on Pinterest' },
         'phone':      { class: 'phone',     use: false, icon: 'phone',       link: '', title: 'Call us', type: 'phone' },
-        'email': { class: 'email', use: false, icon: 'envelope', link: '', title: 'Send us an email', type: 'email' },
+        'email': { class: 'email', use: false, icon: '', link: '', title: 'Send us an email', type: 'email' },
         'youtube': { class: 'youtube', use: false, icon: '', link: '', title: 'Follow on YouTube' },
         'urbanpro': { class: 'urbanpro', use: false, icon: '', link: '', title: 'Meet your Instructor on UrbanPro' },
       }
