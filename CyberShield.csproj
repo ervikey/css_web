@@ -57,9 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="events.html" />
+    <Content Include="css\UpcomingEvents.css" />
     <Content Include="CyberForensics.html" />
+    <Content Include="img\contactimage.png" />
     <Content Include="img\CSCU-Banner-02.jpg" />
     <Content Include="img\cyberforensicscontent.jpg" />
+    <Content Include="img\logo-small.jpg" />
     <Content Include="img\vaptcontent.jpg" />
     <Content Include="VAPT.html" />
     <Content Include="cscu.html" />

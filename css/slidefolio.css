@@ -380,7 +380,7 @@ body {
 
 .header {
     display: table;
-    height: 55%;
+    height: 75%;
     width: 100%;
     position: relative;
 }
@@ -403,7 +403,7 @@ body {
 /* about us */
 
 .about_us {
-    padding: 50px 0;
+    padding: 7px 0!important;
     background: none repeat scroll 0 0 #F1F1F1;
     border-bottom: 1px solid #D1D1D1 !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
