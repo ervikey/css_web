@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\testimonials.css" />
     <Content Include="events.html" />
     <Content Include="css\UpcomingEvents.css" />
     <Content Include="CyberForensics.html" />
@@ -65,6 +66,7 @@
     <Content Include="img\cyberforensicscontent.jpg" />
     <Content Include="img\logo-small.jpg" />
     <Content Include="img\vaptcontent.jpg" />
+    <Content Include="js\testimonialscript.js" />
     <Content Include="VAPT.html" />
     <Content Include="cscu.html" />
     <Content Include="CEH.html" />
